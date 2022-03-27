@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
-import SignIn from "./pages/signin";
+import SignIn from "./pages/sign-in";
 import Reading from "./pages/reading";
 
 ReactDOM.render(

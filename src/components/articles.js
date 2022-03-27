@@ -2,7 +2,28 @@ import {OkayButton} from "./buttons";
 import React from "react";
 
 export function ArticleInfo(props) {
+    return (
+        <div>
+            <div>
+                <AuthorInfo author={props.article.author} />
+            </div>
+            <div>
+                render tags or themes
+            </div>
+            <div>
+                render temps (is it time for reading?)
+            </div>
+        </div>
+    )
+}
 
+export function ArticleCard(props) {
+    return (
+        <div>
+            <img src={props.article.img}/>
+            <ArticleInfo article={props.article} />
+        </div>
+    )
 }
 
 export function BuyArticle(props) {
