@@ -1,0 +1,36 @@
+input {
+    padding: 5px;
+    margin-top: 56px;
+    border: 1px solid #00000042;
+    border-radius: 4px;
+    height: 40px;
+    width: 400px;
+}
+
+h2 {
+    text-align: left;
+    font: normal normal 600 32px/37px Bai Jamjuree;
+    letter-spacing: 0.01px;
+    color: #191919;
+}
+
+form {
+    margin: auto;
+    width: 25%;
+}
+
+.signin-buttom {
+    background: #6356A5;
+    border-radius: 100px;
+    text-align: center;
+    font: 14px Roboto;
+    color: #FFFFFF;
+}
+
+.forgot-password {
+    display: flex;
+    justify-content: flex-end;
+    font: normal normal normal 15px/32px Montserrat;
+    color: #17181D;
+}
+

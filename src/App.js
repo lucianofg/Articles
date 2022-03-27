@@ -1,9 +1,11 @@
 import './App.css';
+import SignIn from "./pages/signin";
 
 function App() {
   return (
     <div className="App">
-      Articles
+      <h1>Articles</h1>
+      <SignIn/>
     </div>
   );
 }
