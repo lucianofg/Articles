@@ -1,0 +1,14 @@
+h1 {
+    text-align: left;
+    font: 30px/37px Helvetica Neue;
+}
+
+p {
+    text-align: left;
+    font: 16px/18px Helvetica Neue;
+}
+
+.reading-div {
+    margin: auto;
+    width: 400px;
+}

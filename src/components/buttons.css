@@ -1,0 +1,23 @@
+.button {
+    width: 100px;
+    height: 40px;
+    border-radius: 12px;
+    text-align: center;
+    font: normal normal bold 12px/15px Helvetica Neue;
+    color: #FFFFFF;
+}
+
+.okay-button {
+    background: #20C5D2;
+    color: #FFFFFF;
+}
+
+.cancel-button {
+    background: #ee0f23;
+    color: #FFFFFF;
+}
+
+.sign-button {
+    background: #6356A5;
+    color: #FFFFFF;
+}
