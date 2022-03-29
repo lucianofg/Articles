@@ -1,4 +1,4 @@
-input {
+.signin-input {
     padding: 5px;
     margin-top: 56px;
     border: 1px solid #00000042;
@@ -25,6 +25,11 @@ form {
     text-align: center;
     font: 14px Roboto;
     color: #FFFFFF;
+    padding: 5px;
+    margin-top: 56px;
+    border: 1px solid #00000042;
+    height: 40px;
+    width: 120%;
 }
 
 .forgot-password {
