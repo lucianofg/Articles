@@ -7,6 +7,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 import SignIn from "./pages/sign-in";
 import Reading from "./pages/reading";
+import Writing from "./pages/writing";
 
 ReactDOM.render(
     <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.render(
                 <Route path='/reading' element={<Reading />}>
                     <Route path=':article_id' element={<Reading />}/>
                 </Route>
+                <Route path="/writing" element={<Writing />} />
             </Routes>
         </BrowserRouter>
     </React.StrictMode>,

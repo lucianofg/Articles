@@ -8,8 +8,8 @@ export default function TextEditor() {
                 <button>Add Video</button>
             </div>
             <div>
-                <input id="title" type="text"/>
-                <textarea></textarea>
+                <input id="title" type="text" placeholder="Title"/>
+                <input id="title" type="text" placeholder="Text"/>
             </div>
         </div>
     )

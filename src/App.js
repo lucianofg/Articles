@@ -7,6 +7,7 @@ function App() {
             <h1>Homepage</h1>
             <p><Link to={"/sign-in"}>"Sign In"</Link></p>
             <p><Link to={"/reading/12"}>"Reading"</Link></p>
+            <p><Link to={"/writing"}>"Writing"</Link></p>
         </div>
     );
 }
