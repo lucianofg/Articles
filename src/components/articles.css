@@ -1,0 +1,61 @@
+h1 {
+    text-align: left;
+    font: 30px/37px Helvetica Neue;
+}
+
+p {
+    text-align: left;
+    font: 16px/18px Helvetica Neue;
+}
+
+img {
+    width:100%;
+    max-width: 700px;
+}
+
+.reading-div {
+    margin: auto;
+    width: 600px;
+}
+@media only screen and (max-width: 600px) {
+    .reading-div {
+        width: auto;
+        padding: 18px;
+    }
+}
+
+.description {
+    text-align: left;
+    font: 12px/13px Helvetica Neue;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+.content {
+    text-align: left;
+    font: 16px/18px Helvetica Neue;
+}
+
+.article-info {
+    float: left;
+    height: 80px;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, .5);
+}
+
+.article-author {
+    width: 40%;
+    border-style: none solid none none;
+}
+.article-themes {
+    width: 28%;
+    border-style: none solid none none;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.article-temps {
+    width: 28%;
+    padding-left: 10px;
+    padding-top: 20px;
+}

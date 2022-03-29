@@ -23,3 +23,14 @@ export function SignButton(props) {
         </button>
     )
 }
+
+export function FollowButton(props) {
+    function userAlreadyFollowAuthor(user, author) {
+        return true;
+    }
+
+    if (userAlreadyFollowAuthor())
+        return <button className="unfollow-button">Unfollow</button>
+    else
+        return <button className="follow-button">Follow</button>
+}

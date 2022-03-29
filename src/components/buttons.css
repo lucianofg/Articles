@@ -13,11 +13,27 @@
 }
 
 .cancel-button {
-    background: #ee0f23;
+    background: #f33d3d;
     color: #FFFFFF;
 }
 
 .sign-button {
     background: #6356A5;
+    color: #FFFFFF;
+}
+
+.follow-button {
+    background: #FEC92E;
+    border-radius: 6px;
+    text-align: center;
+    font:12px/13px Helvetica Neue;
+    color: #FFFFFF;
+}
+
+.unfollow-button {
+    background: #f33d3d;
+    border-radius: 6px;
+    text-align: center;
+    font:12px/13px Helvetica Neue;
     color: #FFFFFF;
 }
