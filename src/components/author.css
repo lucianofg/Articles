@@ -2,11 +2,19 @@
     float: left;
 }
 
+.author-pfp-div {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
 .author-pfp {
+
     float: left;
-    width: 70px;
-    height: 70px;
-    border-radius: 70px;
+    margin-left: auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
     border-color: #FEC92E;
     border-width: 1px;
     border-style: solid;
