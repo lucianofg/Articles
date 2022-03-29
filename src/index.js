@@ -14,7 +14,9 @@ ReactDOM.render(
             <Routes>
                 <Route path='/' element={<App />} />
                 <Route path='/sign-in' element={<SignIn />}/>
-                <Route path='/reading' element={<Reading />}/>
+                <Route path='/reading' element={<Reading />}>
+                    <Route path=':article_id' element={<Reading />}/>
+                </Route>
             </Routes>
         </BrowserRouter>
     </React.StrictMode>,
