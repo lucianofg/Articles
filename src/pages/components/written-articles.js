@@ -1,4 +1,4 @@
-export default function ArticlesYouWrote() {
+export default function WrittenArticles() {
     return (
         <div>
             Articles you wrote

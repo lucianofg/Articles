@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import {OkayButton} from "../components/buttons";
-import {FullArticle, PreviewArticle} from "../components/articles";
+import {OkayButton} from "./components/buttons";
+import {FullArticle, PreviewArticle} from "./components/articles";
 import {useParams} from "react-router-dom";
 import {getArticle} from "../controllers/article-controller";
 

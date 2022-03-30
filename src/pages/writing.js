@@ -1,7 +1,7 @@
 import React from "react";
-import {CancelButton, OkayButton, SignButton} from "../components/buttons";
-import TextEditor from "../components/text-editor";
-import Logo from "../components/logo";
+import {CancelButton, OkayButton, SignButton} from "./components/buttons";
+import TextEditor from "./components/text-editor";
+import Logo from "./components/logo";
 
 export default function Writing(props) {
     return (

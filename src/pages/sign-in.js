@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './sign-in.css'
-import Logo from "../components/logo";
+import Logo from "./components/logo";
 
 export default function SignIn() {
     const [email, setEmail] = useState();
