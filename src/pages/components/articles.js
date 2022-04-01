@@ -2,6 +2,7 @@ import {OkayButton} from "./buttons";
 import React from "react";
 import AuthorInfo from "./author";
 import './articles.css'
+import {Link} from "react-router-dom";
 
 export function ArticleInfo(props) {
     return (
@@ -23,10 +24,16 @@ export function ArticleInfo(props) {
 
 export function ArticleCard(props) {
     return (
-        <div>
-            <img src={props.article.img}/>
-            <ArticleInfo article={props.article} />
-        </div>
+
+            <div className="article-card">
+                <Link to={`/reading/${props.article.id}`}>
+                    <img className="article-card-img" src={props.article.img}/>
+                    <h1>{props.article.title}</h1>
+                </Link>
+                <div className="article-card-author-info">
+                    <ArticleInfo article={props.article} />
+                </div>
+            </div>
     )
 }
 
