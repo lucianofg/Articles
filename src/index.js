@@ -8,6 +8,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import SignIn from "./pages/sign-in";
 import Reading from "./pages/reading";
 import Writing from "./pages/writing";
+import DefaultHomePage from "./pages/default-home-page";
 
 ReactDOM.render(
     <React.StrictMode>
@@ -19,6 +20,7 @@ ReactDOM.render(
                     <Route path=':article_id' element={<Reading />}/>
                 </Route>
                 <Route path="/writing" element={<Writing />} />
+                <Route path="/home" element={<DefaultHomePage />} />
             </Routes>
         </BrowserRouter>
     </React.StrictMode>,

@@ -8,11 +8,6 @@ p {
     font: 16px/18px Helvetica Neue;
 }
 
-img {
-    width:100%;
-    max-width: 700px;
-}
-
 .reading-div {
     margin: auto;
     width: 600px;
@@ -60,6 +55,11 @@ img {
     padding-top: 20px;
 }
 
+.article-img {
+    border-radius: 16px;
+    width:100%;
+    max-width: 700px;
+}
 .article-card-img {
     height: 240px;
     width: 412px;

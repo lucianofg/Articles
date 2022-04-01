@@ -57,7 +57,7 @@ export function BuyArticle(props) {
 export function FullArticle(props) {
     return (
         <div className="reading-div">
-            <img src={props.article.img} />
+            <img className="article-img" src={props.article.img} />
             <h1>{props.article.title}</h1>
             <div>
                 {props.article.text.map((paragraph) => {return (<p>{paragraph}</p>)})}
@@ -70,12 +70,13 @@ export function FullArticle(props) {
 export function PreviewArticle(props) {
     return (
         <div className="reading-div">
+            <img className="article-img" src={props.article.img} />
             <h1>{props.article.title}</h1>
             <div>
                 <p>{props.article.text[0]}</p>
             </div>
             <BuyArticle article={props.article} />
-            <ArticleInfo article={props.article} />
+            <ArticleInfo article={props.article}/>
         </div>
     )
 }

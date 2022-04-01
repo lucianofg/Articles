@@ -10,6 +10,7 @@ function App() {
             <p><Link to={"/sign-in"}>"Sign In"</Link></p>
             <p><Link to={"/reading/12"}>"Reading"</Link></p>
             <p><Link to={"/writing"}>"Writing"</Link></p>
+            <p><Link to={"/home"}>"Default home page"</Link></p>
 
             <ArticleCard article={getArticle(10)} />
         </div>
