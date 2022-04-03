@@ -22,3 +22,44 @@ export function getArticle(id) {
 export function getListOfTopArticles() {
     return [article, article, article, article]
 }
+
+export function getArticlesThatYouWrote() {
+    const headers = ["Article", "Publisher", "Publication Date", "Value"];
+    const articles = [
+        {
+            article: "What was the trend in 2020 and you didn’t use it",
+            publisher: "Article",
+            publication_date: "12/12/2022",
+            value: "9.99",
+        },
+        {
+            article: "What was the trend in 2020 and you didn’t use it",
+            publisher: "Article",
+            publication_date: "12/12/2022",
+            value: "9.99",
+        },
+        {
+            article: "What was the trend in 2020 and you didn’t use it",
+            publisher: "Article",
+            publication_date: "12/12/2022",
+            value: "9.99",
+        }
+    ]
+    return [ headers, articles ]
+}
+
+export function getYourTopArticles() {
+    const headers = ["Article", "Publisher", "Sales", "Value"];
+    const articles = [{
+        article: "Nome",
+        publisher: "Article",
+        sales: 100,
+        value: "10.90",
+    }, {
+        article: "Nome",
+        publisher: "Article",
+        sales: 100,
+        value: "10.90",
+    }]
+    return [headers, articles]
+}

@@ -9,6 +9,7 @@ import SignIn from "./pages/sign-in";
 import Reading from "./pages/reading";
 import Writing from "./pages/writing";
 import DefaultHomePage from "./pages/default-home-page";
+import SignedHomePage from "./pages/signed-home-page";
 
 ReactDOM.render(
     <React.StrictMode>
@@ -21,6 +22,7 @@ ReactDOM.render(
                 </Route>
                 <Route path="/writing" element={<Writing />} />
                 <Route path="/home" element={<DefaultHomePage />} />
+                <Route path="/signed" element={<SignedHomePage />} />
             </Routes>
         </BrowserRouter>
     </React.StrictMode>,

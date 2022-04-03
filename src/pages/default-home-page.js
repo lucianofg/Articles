@@ -1,7 +1,6 @@
-import {getListOfTopArticles} from "../controllers/article-controller";
 import React from "react";
-import {ArticleCard} from "./components/articles";
-import {Link} from "react-router-dom";
+import {getListOfTopArticles} from "../controllers/article-controller";
+import {ArticleCard, ArticleCardList} from "./components/articles";
 
 export default function DefaultHomePage() {
     const topArticles = getListOfTopArticles();
@@ -10,13 +9,8 @@ export default function DefaultHomePage() {
             <h1>Homepage</h1>
             <div>
                 <ul>
-                    {
-                        topArticles.map(article => {
-                            return (<li><Link to={`/reading/${article.id}`}>{article.title}</Link></li>)
-                        })
-                    }
+                    <ArticleCardList articles={topArticles} />
                 </ul>
-                List of articles
             </div>
             <div>
                 <div className="default-home-page-cards">

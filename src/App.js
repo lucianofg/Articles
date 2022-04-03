@@ -11,6 +11,7 @@ function App() {
             <p><Link to={"/reading/12"}>"Reading"</Link></p>
             <p><Link to={"/writing"}>"Writing"</Link></p>
             <p><Link to={"/home"}>"Default home page"</Link></p>
+            <p><Link to={"/signed"}>"Signed home page"</Link></p>
 
             <ArticleCard article={getArticle(10)} />
         </div>

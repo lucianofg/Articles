@@ -80,3 +80,41 @@ export function PreviewArticle(props) {
         </div>
     )
 }
+
+export default function ArticleList(props) {
+    return (
+        <div>
+            <table>
+                <tr>
+                    {props.headers.map(col => {return (<th>{col}</th>)})}
+                </tr>
+                {
+                    props.rows.map(row => {
+                        return (
+                            <tr>
+                                {Object.entries(row).map(ob => {return (<td>{ob[1]}</td>)})}
+                            </tr>
+                        )
+                    })
+                }
+            </table>
+        </div>
+    )
+}
+
+export function ArticleCardList(props) {
+    return (
+        <div>
+            {
+                props.articles.map((article, i) => {
+                    return (
+                        <li>
+                            {String(i+1).padStart(2, 0)} :
+                            <Link to={`/reading/${article.id}`}> {article.title}</Link>
+                        </li>
+                    )
+                })
+            }
+        </div>
+    )
+}

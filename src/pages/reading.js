@@ -1,13 +1,10 @@
-import React, {useState} from "react";
-import {OkayButton} from "./components/buttons";
 import {FullArticle, PreviewArticle} from "./components/articles";
 import {useParams} from "react-router-dom";
 import {getArticle} from "../controllers/article-controller";
 
 export default function Reading(props) {
     function userHasArticle(id) {
-        // TODO
-        return true
+        return false
     }
 
     let params = useParams()
